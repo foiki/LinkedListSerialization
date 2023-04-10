@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedListSerialization", "DoublyLinkedListSerialization.csproj", "{A111F10D-2FAA-4CBF-B3D7-82C91C8F2726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListSerializationTests", "..\LinkedListSerializationTests\LinkedListSerializationTests.csproj", "{D16B2402-D6FB-4C59-AAD8-0CF533739A41}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A111F10D-2FAA-4CBF-B3D7-82C91C8F2726} = {A111F10D-2FAA-4CBF-B3D7-82C91C8F2726}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A111F10D-2FAA-4CBF-B3D7-82C91C8F2726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A111F10D-2FAA-4CBF-B3D7-82C91C8F2726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A111F10D-2FAA-4CBF-B3D7-82C91C8F2726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A111F10D-2FAA-4CBF-B3D7-82C91C8F2726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16B2402-D6FB-4C59-AAD8-0CF533739A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16B2402-D6FB-4C59-AAD8-0CF533739A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16B2402-D6FB-4C59-AAD8-0CF533739A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16B2402-D6FB-4C59-AAD8-0CF533739A41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB91475-92AF-49D2-B13D-FB9A2A6F4749}
+	EndGlobalSection
+EndGlobal
